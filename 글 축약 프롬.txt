@@ -1,0 +1,9 @@
+@DEF:|Section(S)|:Hierarchy(H)|~KeyValue(KV)|/List(L)|;CSV(C)|>Sequence(SQ)|>>Then(TH)|{Variable(V)}
+@DEF(Definition, 정의)
+|Section(S)| S는 최상위 주제이며, 모든 하위 규칙은 S에 속하게됨 (예: C드라이브는 최상위 폴더임)
+:Hierarchy(H)| S 하위 계층은 H로 정의한다 (C드라이브 속 직박구리 폴더는 하위 폴더임)
+~KeyValue(KV)| ~는 key-value를 연결하는 기호이며, 해당 기호로 연결되면 key-value 구조를 가지게 된다
+;CSV(C)| ;는 csv의 표의 열과 행 규칙을 따른다
+>Sequence(SQ)| >는 순서를 의미한다
+>>Then(TH)| >>는 Sequence(SQ) 의 동작 순서를 정의한다. >>가 붙으면 그 다음의 작업을 의미한다
+{Variable(V)} {}는 변수를 의미하며, 해당 값은 상황에 따라 달라질 수 있다
